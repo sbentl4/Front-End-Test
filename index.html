@@ -25,6 +25,16 @@
   <body>
     <div class="container-fluid toolbar">
       <div class="toolbar col-md-10 offset-md-1">
+
+
+        <!-- <i class="fas fa-bars"></i> -->
+
+        <i class="mx-0 collapseable fas fa-bars" aria-hidden="true" data-toggle="collapse" data-target="#mobilemenu" aria-expanded="false">
+        </i>
+
+        <div id="mobilemenu" class="collapse">
+
+
         <a href="#" >
           About Us
         </a>
@@ -49,6 +59,7 @@
         <a href="#" class="login">
         LOGIN
       </a>
+    </div>
       </div>
   </div>
     <div class="searchbar px-0">
@@ -82,23 +93,25 @@
       </div>
     </div>
 
-    <aside id="navrail" class="col-md-1">
-      <ul class="px-0" >
-        <li class="active"><a href="#">Lorum</a></li>
-        <i class="mx-0 collapseable fa fa-chevron-right" aria-hidden="true" data-toggle="collapse" data-target="#sampleExpand" aria-expanded="false">
-          <li>Expand</li>
-        </i>
+
+
+<div class="base">
+  <div class="railholder">
+
+  <aside id="navrail" class="col-md-1">
+    <ul class="px-0" >
+      <li class="active"><a href="#">Lorum</a></li>
+      <i class="mx-0 collapseable fa fa-chevron-right" aria-hidden="true" data-toggle="collapse" data-target="#sampleExpand" aria-expanded="false">
+        <li>Expand</li>
+      </i>
 
       <div id="sampleExpand" class="collapse show">
         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
       </div>
-        <li><a href="#">Lorum</a></li>
-        <li><a href="#">Ipsum</a></li>
-      </ul>
-    </aside>
-
-
-<div class="base">
+      <li><a href="#">Lorum</a></li>
+      <li><a href="#">Ipsum</a></li>
+    </ul>
+  </aside>
 
 <section class="news offset-md-2 col-md-8">
   <div class="container">
@@ -113,7 +126,7 @@
 
       </h2>
       <!-- make responsive later, date below -->
-      <div class="artimg col-md-5 col-sm-10 offset-sm-1">
+      <div class="artimg col-md-4 col-sm-10 offset-sm-1">
           <div class="" title="caption" alt="alt">
 
           </div>
@@ -162,6 +175,7 @@
     </div>
   </div>
 </section>
+</div>
 
 
 

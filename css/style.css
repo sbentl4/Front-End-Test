@@ -41,6 +41,10 @@ background-size: cover;
 background-repeat: no-repeat;
 /* color:white; */
 }
+.toolbar{
+    background-color: #2F2D36;
+    color: white;
+}
 .toolbar .login{
   background-color:#FDC00F;
   padding: 0.25em .5em .25em .5em;
@@ -48,25 +52,24 @@ background-repeat: no-repeat;
 }
 .toolbar div a{
   color: white;
-margin-right: 1.1em;
-/* font-size: 20pt; */
-font-size: 9pt;
-/* make 20 when larger */
+  margin-right: 1.1em;
+  /* font-size: 20pt; */
+  font-size: 9pt;
+  /* make 20 when larger */
 }
 .toolbar div{
-  padding-top:1em;
+
+  padding-top:0.5em;
   height:4em;
-  /* 100px */
 
 }
-.toolbar{
-    background-color: #2F2D36;
-    color: white;
-}
+.toolbar i{
+    display: none;
 
+}
 .searchbar{
   position:absolute;
-  top:4em;
+  /* top:4em; */
   height: 2em;
   width: 100%;
   max-width:none;
@@ -320,20 +323,17 @@ background-repeat: no-repeat;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-
   width: 20%;
   float: left;
-  /* margin-right: 0; */
-  /* height: auto; */
   position: relative;
   position: -webkit-sticky;
   position: sticky;
   top: 0em;
   z-index: 1000;
-  /* text-decoration: none; */
   padding-top: 2em;
   padding-left: 15px;
 }
+
 #navrail li{
   font-family: roundedMplus1cLight;
 }
@@ -342,8 +342,7 @@ background-repeat: no-repeat;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  /* width: 100%; */
-  /* float: left; */
+
   margin-left: 0;
   margin-right: 0;
   list-style: none;
@@ -471,7 +470,16 @@ background-size: cover;
 background-repeat: no-repeat;
 height:100%;
 }
+#mobilemenu{
+  display:block;
+}
 
+@media screen and (max-width: 1000px) {
+  .searchbar{
+    height:5em;
+    top:unset;
+  }
+}
 
 @media screen and (max-width: 600px) {
     .articles {
@@ -508,6 +516,32 @@ height:100%;
   }
   .artimg{
     min-height: 15em;
+  }
+  .toolbar{
+    /* height:13em; */
+  }
+  .toolbar div{
+    height:unset;
+      padding-top:1em;
+    padding-bottom:1em;
+  }
+  .toolbar i{
+    display: block;
+  }
+  .toolbar div a {
+  	font-size: 9pt;
+  	width: 100%;
+  	display: block;
+  }
+  #mobilemenu{
+    display:none;
+  }
+  .searchbar{
+    height:5em;
+    top:unset;
+  }
+  .collapse.show {
+  	display: block!important;
   }
 
 }
