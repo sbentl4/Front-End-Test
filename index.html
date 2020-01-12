@@ -24,8 +24,8 @@
 </head>
   <body>
     <div class="container-fluid toolbar">
-      <div class="toolbar col-offset-md-1">
-        <a href="#" class="col-offset-md-1">
+      <div class="toolbar col-md-10 offset-md-1">
+        <a href="#" >
           About Us
         </a>
         <a href="#">
@@ -44,9 +44,9 @@
           Continuing Education
         </a>
         <a href="#">
-          I am a(n) 
+          I am a(n) <i class="fas fa-sort-down"></i>
         </a>
-        <a href="#">
+        <a href="#" class="login">
         LOGIN
       </a>
       </div>
@@ -55,9 +55,16 @@
       <div class="bg">
 
       </div>
+
       <div class="col-md-8 offset-md-2">
-      <p>What can we help you find?</p>
-      <input type="text" name="Searchbar" value="Search">
+        <p>What can we help you find?</p>
+      <div class="searchcontainer">
+      <input type="text" placeholder="Search">
+      <button type="button" name="button">
+        <i class="fas fa-search"></i>
+      </button>
+      </div>
+
     </div>
     </div>
 
@@ -67,7 +74,7 @@
 
       <div class="h-100 align-items-center">
         <div class="col-12 text-center banner">
-          <img class="" src="links/logo.png" alt='logo'>
+          <img class="" src="Links\Logo.png" alt='logo'>
           <h1>
             Welcome to the Louisiana State Board of Licensed Professional Counselors
           </h1>
@@ -97,16 +104,16 @@
   <div class="container">
     <div class="row">
       <!-- first row -->
-      <p class="col-2" id="date">date</p>
-      <h1 class=" col-8 text-center">Headline</h1>
-      <div class="col-2">      </div>
+      <p class="col-md-2" id="date">date</p>
+      <h1 class=" col-md-8 col-12 text-center">Headline</h1>
+      <div class="col-md-2 col-0">      </div>
 
       <div class="col-2"> </div>
       <h2 class="col-8 text-center subtitle">dog
 
       </h2>
       <!-- make responsive later, date below -->
-      <div class="artimg col-4">
+      <div class="artimg col-md-5 col-sm-10 offset-sm-1">
           <div class="" title="caption" alt="alt">
 
           </div>
@@ -117,7 +124,7 @@
 
 
 
-      <p class="offset-md-1 col-md-7"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur tellus sit amet luctus pretium. Suspendisse odio eros, eleifend eu metus ultricies, dignissim volutpat urna. Aliquam ut mattis velit. Nullam rhoncus velit et turpis dignissim pulvinar. Proin semper dui erat, eget auctor nisi rutrum id. Suspendisse in elementum lorem, ornare luctus ipsum. Maecenas felis tortor, mattis vitae dapibus at, ornare ac augue. In mattis lectus mauris, et sagittis ipsum tristique quis.
+      <p class="offset-md-1 col-md-6 col-sm-10 offset-sm-1"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur tellus sit amet luctus pretium. Suspendisse odio eros, eleifend eu metus ultricies, dignissim volutpat urna. Aliquam ut mattis velit. Nullam rhoncus velit et turpis dignissim pulvinar. Proin semper dui erat, eget auctor nisi rutrum id. Suspendisse in elementum lorem, ornare luctus ipsum. Maecenas felis tortor, mattis vitae dapibus at, ornare ac augue. In mattis lectus mauris, et sagittis ipsum tristique quis.
       </p>
       <br>
 
@@ -125,19 +132,25 @@
       <p class="col-12">
         Quisque non nisl sem. Vivamus tempus urna nec fringilla elementum. Etiam sem est, faucibus et commodo quis, interdum sed orci. Nunc tincidunt eu nunc ut tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum commodo interdum nulla, nec ultricies lectus porttitor eu. Morbi mollis lobortis sem nec auctor. Donec tempus tortor quis vestibulum ultricies. Aliquam porta magna a volutpat interdum. Duis tincidunt libero libero, scelerisque fermentum orci consectetur in. Morbi laoreet blandit libero id pellentesque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas ultrices tincidunt luctus.
       </p>
-      <br>
-      <br>
 
-      <ol class="col-md-5 offset-md-1">
+      <div class="col-5 offset-1">
+
+      <ol>
         <li>dog1</li>
         <li>dog2</li>
         <li>dog3</li>
       </ol>
-      <ul class="col-md-5 offset-md-1">
+    </div>
+    <div class="col-5 offset-1">
+
+      <ul>
         <li>dog1</li>
         <li>dog2</li>
         <li>dog3</li>
       </ul>
+  </div>
+
+
       <h2 class="col-md-4 quote">"Quisque non nisl sem. Vivamus tempus urna nec fringilla elementum. "</h2>
       <p class="col-md-7 offset-md-1">
       Fusce commodo nisl nec sapien semper tempus. Sed auctor nulla condimentum sapien varius mollis. Cras ac orci aliquam, dapibus sapien quis, tristique purus. Vestibulum gravida enim non facilisis facilisis. Vivamus congue pulvinar rhoncus. Nunc volutpat tellus in elementum accumsan. Mauris a leo sapien. Nam magna turpis, mattis sit amet mattis eget, sagittis non dolor. Donec vel tempus eros. Curabitur eu erat non justo fermentum malesuada et vel justo. Sed non arcu in urna elementum condimentum id non libero. Pellentesque et vehicula velit, eu elementum arcu.
@@ -168,9 +181,9 @@
     <div class="row">
 
       <h1 class="col-12 text-center">Lorum Ipsum</h1>
-      <div class="mx-auto ">
+      <div class="mx-md-auto col-12">
 
-        <iframe width="560" height="315"
+        <iframe class="col-10 offset-1"
         src="https://www.youtube.com/embed/ZwosbAOUkzw" frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
@@ -193,22 +206,17 @@
 <section class="articles mx-0 container-fluid">
   <div class="row">
 
-
-
-
-
-
-<div class="px-0 col-sm-4 block">
+<div class="px-0 col-md-4 col-12 block">
   <div class="block1 aimg"></div>
   <h1>dog</h1>
 </div>
 
-<div class="px-0 col-sm-4 block">
+<div class="px-0 col-md-4 col-12 block">
   <div class="block2 aimg"></div>
   <h1>dog</h1>
 </div>
 
-<div class="px-0 col-sm-4 block">
+<div class="px-0 col-md-4 col-12 block">
   <div class="block3 aimg"></div>
   <h1>dog</h1>
 </div>
@@ -222,7 +230,7 @@
 <div class= "footer">
   <div class="row">
 
-  <div class="col-sm-4 contact">
+  <div class="col-4 contact">
     <h1>
     Licensed Professional Counselors
     Board of Examiners
@@ -245,7 +253,7 @@
     </li>
   </div>
 
-<div class="col-sm-4 col-offset-sm-1 darkyellow">
+<div class="col-4 col-offset-1 darkyellow">
   <h1>FOLLOW US ONLINE</h1>
   <div class="footerbar">
     <!-- <p>ddog</p> -->
@@ -253,11 +261,11 @@
   <img src="/Links/socialmedia.png" alt="">
 </div>
 
-<div class="col-sm-4 col-offset-sm-1 linkfooter row">
+<div class="col-md-4 offset-md-1  col-12  linkfooter row">
   <h1>HELPFUL LINKS</h1>
   <div class="footerbar">
   </div>
-  <div class="col-sm-6 ">
+  <div class="col-md-6 col-12 ">
 
   <ul>
     <li>
@@ -280,7 +288,7 @@
     </li>
   </ul>
 </div>
-<div class="col-sm-6">
+<div class="col-md-6 col-12">
 
   <ul >
     <li>
