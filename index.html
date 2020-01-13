@@ -96,18 +96,19 @@
 <div class="base">
   <div class="railholder">
 
-  <aside id="navrail" class="col-md-1">
+  <aside id="navrail" class="col-2">
     <ul class="px-0" >
-      <li class="active"><a href="#">Lorum</a></li>
-      <i class="mx-0 collapseable fa fa-chevron-right" aria-hidden="true" data-toggle="collapse" data-target="#sampleExpand" aria-expanded="false">
+      <li class="active"><a href="#date">Article Top</a></li>
+      <!-- <i class="fas"></i> -->
+      <i class="mx-0 collapseable fas  fa-sort-down " aria-hidden="true" data-toggle="collapse" data-target="#sampleExpand" aria-expanded="false">
         <li>Expand</li>
       </i>
 
       <div id="sampleExpand" class="collapse show">
         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
       </div>
-      <li><a href="#">Lorum</a></li>
-      <li><a href="#">Ipsum</a></li>
+      <li><a href="#ol">List</a></li>
+      <li><a href="#quote">Quote</a></li>
     </ul>
   </aside>
 
@@ -116,11 +117,11 @@
     <div class="row">
       <!-- first row -->
       <p class="col-md-2" id="date">date</p>
-      <h1 class=" col-md-8 col-12 text-center">Headline</h1>
+      <h1 class=" col-md-8 col-12 text-center">HEADLINE</h1>
       <div class="col-md-2 col-0">      </div>
 
       <div class="col-2"> </div>
-      <h2 class="col-8 text-center subtitle">dog
+      <h2 class="col-8 text-center subtitle">Subtitle
 
       </h2>
       <!-- make responsive later, date below -->
@@ -146,25 +147,25 @@
 
       <div class="col-5 offset-1">
 
-      <ol>
-        <li>dog1</li>
-        <li>dog2</li>
-        <li>dog3</li>
+      <ol id="ol">
+        <li>Ordered List 1</li>
+        <li>Ordered List 2</li>
+        <li>Ordered List 3</li>
       </ol>
     </div>
     <div class="col-5 offset-1">
 
-      <ul>
-        <li>dog1</li>
-        <li>dog2</li>
-        <li>dog3</li>
+      <ul id="ul">
+        <li>Unordered List 1</li>
+        <li>Unordered List 2</li>
+        <li>Unordered List 3</li>
       </ul>
   </div>
 
 
-      <h2 class="col-md-4 quote">"Quisque non nisl sem. Vivamus tempus urna nec fringilla elementum. "</h2>
+      <h2 class="col-md-4 quote" id="quote">"Quisque non nisl sem. Vivamus tempus urna nec fringilla elementum. "</h2>
       <p class="col-md-7 offset-md-1">
-      Fusce commodo nisl nec sapien semper tempus. Sed auctor nulla condimentum sapien varius mollis. Cras ac orci aliquam, dapibus sapien quis, tristique purus. Vestibulum gravida enim non facilisis facilisis. Vivamus congue pulvinar rhoncus. Nunc volutpat tellus in elementum accumsan. Mauris a leo sapien. Nam magna turpis, mattis sit amet mattis eget, sagittis non dolor. Donec vel tempus eros. Curabitur eu erat non justo fermentum malesuada et vel justo. Sed non arcu in urna elementum condimentum id non libero. Pellentesque et vehicula velit, eu elementum arcu.
+      Fusce commodo nisl nec sapien semper tempus. Sed auctor nulla condimentum sapien varius mollis. Cras ac orci aliquam, dapibus sapien quis, tristique purus. Vestibulum gravida enim non facilisis facilisis. Vivamus congue pulvinar rhoncus. Nunc volutpat tellus in elementum accumsan. Mauris a leo sapien. Nam magna turpis, mattis sit amet mattis eget, sagittis non dolor. Donec vel tempus eros. Curabitur eu erat non justo fermentum malesuada et vel justo.
       </p>
       <p class="col-12">
         Quisque non nisl sem. Vivamus tempus urna nec fringilla elementum. Etiam sem est, faucibus et commodo quis, interdum sed orci. Nunc tincidunt eu nunc ut tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum commodo interdum nulla, nec ultricies lectus porttitor eu. Morbi mollis lobortis sem nec auctor. Donec tempus tortor quis vestibulum ultricies. Aliquam porta magna a volutpat interdum. Duis tincidunt libero libero, scelerisque fermentum orci consectetur in. Morbi laoreet blandit libero id pellentesque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas ultrices tincidunt luctus.
@@ -176,61 +177,96 @@
 </div>
 
 
-
-
 <div class="swingboy">
-  <div class="container h-100">
+  <div class="container">
     <div class="row h-100 align-items-center">
-      <div class="col-12 text-center">
+      <div class="col-6 offset-md-0 offset-1">
+        <!-- Unused spot for text -->
+        <h1>Lorum Ipsum</h1>
 
+        <div>
+
+          <div class="bgholder">
+              <li>LOR</li>
+              <div class="bg"></div>
+          </div><div class="bgholder">
+              <li>500</li>
+              <div class="bg"></div>
+          </div>
+          <div class="bgholder">
+              <li>EM</li>
+              <div class="bg"></div>
+          </div><div class="bgholder">
+              <li>2,000</li>
+              <div class="bg"></div>
+          </div>
+          <div class="bgholder">
+              <li>IPS</li>
+              <div class="bg"></div>
+          </div><div class="bgholder">
+              <li>3,200</li>
+              <div class="bg"></div>
+          </div>
+
+
+        </div>
       </div>
     </div>
   </div>
 </div>
 
-<section class="textbox">
+<section class="textbox ytembed">
   <div class="container">
     <div class="row">
 
-      <h1 class="col-12 text-center">Lorum Ipsum</h1>
-      <div class="mx-md-auto col-12">
+      <div class="mx-md-auto col-md-6 col-12">
 
-        <iframe class="col-10 offset-1"
+        <iframe class="col-12"
         src="https://www.youtube.com/embed/ZwosbAOUkzw" frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
+      <!-- <h1 class="col-12 text-center">Lorum Ipsum</h1> -->
+      <div class="col-md-5 col-12 text-center">
+
+      <h1 >Video Embed</h1>
+      <p>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur tellus sit amet luctus pretium. Suspendisse odio eros, eleifend eu metus ultricies, dignissim volutpat urna. Aliquam ut mattis velit. Nullam rhoncus velit et turpis dignissim pulvinar. Proin semper dui erat, eget auctor nisi rutrum id. Suspendisse in elementum lorem, ornare luctus ipsum. Maecenas felis tortor, mattis vitae dapibus at, ornare ac augue. In mattis lectus mauris, et sagittis ipsum tristique quis.
+      </p>
+    </div>
     </div>
   </div>
 </section>
 
 
-<section class="textbox col-md-8 offset-md-2">
-  <div class="container">
-    <h1>Technical Support</h1>
-    <p>
-
-      Please watch our video tutorial to learn how to renew or apply for your license online. Please contact
-      Technical Support at support@lpc.zendesk.com or (225) 341-5121 if you are having trouble logging in,
-      renewing your license or navigating the website. Please send all other inquires to help@lpc.org.
-    </p>
-  </div>
-</section>
 <section class="articles mx-0 container-fluid">
   <div class="row">
 
 <div class="px-0 col-md-4 col-12 block">
   <div class="block1 aimg"></div>
-  <h1>dog</h1>
+  <div class="blocktext">
+    <div class="white">
+      <h1>Article 1</h1>
+    </div>
+  </div>
 </div>
 
 <div class="px-0 col-md-4 col-12 block">
   <div class="block2 aimg"></div>
-  <h1>dog</h1>
+  <div class="blocktext">
+    <div class="white">
+      <h1>Article 2</h1>
+    </div>
+  </div>
 </div>
 
 <div class="px-0 col-md-4 col-12 block">
   <div class="block3 aimg"></div>
-  <h1>dog</h1>
+  <div class="blocktext">
+    <div class="white">
+      <h1>Article 3</h1>
+    </div>
+  </div>
 </div>
 </div>
 

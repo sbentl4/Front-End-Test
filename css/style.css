@@ -36,7 +36,7 @@ margin-left: 20%;
 
   height: 100vh;
   min-height: 500px;
-background-position: center;
+background-position: top;
 background-size: cover;
 background-repeat: no-repeat;
 /* color:white; */
@@ -52,13 +52,7 @@ background-repeat: no-repeat;
   border-radius: 4px;
   width: 6%;
 }
-/* .toolbar div a{
-  color: white;
-  margin-right: 4%;
-  font-size: 9pt;
-  display: inline-flex;
 
-} */
 
 .toolbar div a {
 	color: white;
@@ -71,6 +65,19 @@ background-repeat: no-repeat;
   line-height: 10px;
 
 	margin-left: 4%;
+}
+.toolbar div a:hover {
+  /* color:red; */
+  -moz-transition:all .2s ease-in;
+  -o-transition:all .2s ease-in;
+  -webkit-transition:all .2x ease-in;
+  border-style:solid;
+  border-color: white;
+  border-style: solid none solid none;
+  border-width: 1px;
+  padding-top:0.3em;
+  padding-bottom:0.3em;
+  text-decoration: none;
 }
 .testblock{
   background-color:red;
@@ -96,11 +103,9 @@ background-repeat: no-repeat;
 }
 .searchbar .searchcontainer{
   margin-left: 25%;
-width: 100%;
+width: 75%;
 }
-.searchbar div{
 
-}
 .searchbar p, .searchbar input{
   display:inline-block;
 }
@@ -192,16 +197,30 @@ font-size: 10pt
   font-weight:bold;
 }
 
+
+.quote{
+  font-size: 18pt;
+  margin-top:5%;
+  font-family: roundedMplus1cBold;
+  margin-bottom: 5%;
+  color:#157262;
+}
+.news ol, .news ul{
+  color: #157262;
+}
 .textbox{
   padding-top:4em;
   padding-bottom:4em;
 }
 .textbox iframe{
-  min-height: 25em;
+  min-height: 20em;
 }
+.ytembed h1{
+  color:#157262;
+}
+.ytembed p{
+  color:#157262;
 
-.quote{
-  font-size: 20pt;
 }
 .artimg{
   /* max-height: 18em; */
@@ -246,6 +265,7 @@ font-size: 13pt;
 }
 .news h1{
   margin-bottom: 0.1em;
+/* font-family: roundedMplus1cBold; */
 }
 
 .bimg{
@@ -291,41 +311,115 @@ background-repeat: no-repeat;
   background:url(../Links/boy-on-swing-aqua.jpg);
   height: 10vh;
   min-height: 500px;
-background-position: center;
+background-position:top;
 background-size: cover;
 background-repeat: no-repeat;
 
 }
+.swingboy .bgholder{
+  height: 3em;
+  width:50%;
+position:relative;
+display:inline-block;
+}
+.swingboy .bg{
+  background-color:white;
+  width:100%;
+  height:100%;
+  position: absolute;
+  opacity: 0.5;
+  z-index: 1;
+  border:solid;
+  border-width: 1px;
+  border-color: black;
+}
 
-.block h1{
+.swingboy h1{
+  margin-top:12%;
+  font-family: roundedMplus1cLight;
+  color:#157262;
+  z-index: 3;
   position: relative;
+}
+.swingboy ul{
+  padding-left: unset;
+  position: relative;
+}
+.swingboy .bgholder:nth-child(even) .bg{
+  opacity: 0.7;
+
+}
+.swingboy .bgholder:nth-child(even) li {
+  font-family: roundedMplus1cLight;
+  color: #212529;
+}
+.swingboy li{
+  padding-left: 0.5em;
+  list-style: none;
+  font-size: 25pt;
+  font-family: roundedMplus1cExtraBold;
+  color:#157262;
   z-index: 2;
-  color: #04A58E;
-  background-color: white;
-  padding-left:1em;
-  padding-right:1em;
-  padding-top: 0.2em;
-  padding-bottom: 0.2em;
-  margin-top:40%;
-  margin-left: auto;
-
-  width: 50%;
-
-  margin-right: auto;
+  position: absolute;
+  height:100%;
 }
 
 .block{
   border-style: solid;
   border-color: white;
-  /* height:100%; */
-  /* opacity:0.9; */
   text-align: center;
   height:100%;
   padding:unset;
 }
-.aimg:hover{
-  opacity: 0.4;
+.block h1{
+  font-family: roundedMplus1cBold;
+  position: relative;
+  z-index: 2;
+  color: #04A58E;
+  /* background-color: white; */
+  padding-left:1em;
+  padding-right:1em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  /* margin-top:40%; */
+  /* margin-left: auto; */
+  cursor: pointer;
+  /* width: 50%; */
+font-size:14pt;
+  margin-bottom:unset;
+  /* margin-right: auto; */
 }
+.blocktext{
+  margin-top: 35%;
+  position:relative;
+  border-style:solid;
+  border-color:white;
+  margin-left: auto;
+  margin-right: auto;
+  width:60%;
+  border-style: solid none solid none;
+  border-width: 1px;
+  padding-top:0.3em;
+  padding-bottom:0.3em;
+}
+
+.blocktext .white{
+  background-color: white;
+  /* width: 50%; */
+}
+
+.block:hover .white{
+  background-color:unset;
+}
+
+.block:hover .white h1{
+  color:white;
+  background-color:unset;
+
+  /* background-color:none; */
+}
+
+
 .aimg{
   opacity: 0.7;
   position: absolute;
@@ -334,6 +428,10 @@ background-repeat: no-repeat;
   width: 100%;
   height: auto;
   opacity: 0.6;
+}
+.aimg:hover{
+  opacity: 0.4;
+  cursor: pointer;
 }
 .articles{
   height: 20em;
@@ -449,17 +547,36 @@ background-repeat: no-repeat;
       -moz-transition:all .2s ease-in;
       -o-transition:all .2s ease-in;
       -webkit-transition:all .2x ease-in;
-      /* color: red; */
-      color: white;
-      background-color: #e5f3e6;
-      border-radius: 6px;
-      color: #5ab35e;
+      border-style:solid;
+      border-color: #212529;
+      border-style: solid none solid none;
+      border-width: 1px;
+      padding-top:0.3em;
+      padding-bottom:0.3em;
   }
-
-
+  #navrail #sampleExpand li{
+    -moz-transition:all .2s ease-in;
+    -o-transition:all .2s ease-in;
+    -webkit-transition:all .2x ease-in;
+    color: #04A58E;
+    cursor:auto;
+    font-size: 10pt;
+    border-style:solid;
+    border-color: #04A58E;
+    border-style: solid none solid none;
+    border-width: 1px;
+    padding-top:0.3em;
+    padding-bottom:0.3em;
+    width:80%;
+    margin-left:10%;
+  }
+  #navrail .collapseable{
+    padding-left: 20%;
+  }
   .collapseable{
     display:inline-block;
     margin-left: 25%;
+
   }
   .collapseable li{
     display:inline-block;
@@ -532,6 +649,7 @@ height:100%;
     margin-left: 1%;
     /* margin-left: auto; */
     }
+
     #mobilemenu{
       display:block;
       margin-left:15%;
@@ -547,11 +665,14 @@ height:100%;
   .searchcontainer input{
     width: unset;
   }
+  .searchcontainer div div{
+    width: 60%;
+  }
 }
 
 @media screen and (max-width: 1000px) {
   .searchbar{
-    height:3em;
+    height:2em;
     top:unset;
   }
   #mobilemenu{
@@ -573,6 +694,23 @@ height:100%;
   }
 }
 @media screen and (max-width: 700px) {
+  .swingboy .bgholder {
+  	height: 1.9em;
+  }
+  .swingboy h1{
+    margin-top:20%;
+    font-size: 15pt;
+  }
+  .swingboy li{
+    font-size: 15pt;
+  }
+  .textbox iframe{
+    margin-bottom: 3em;
+  }
+  .searchbar .searchcontainer {
+	margin-left: 25%;
+	max-width: 75%;
+}
     .articles {
       height:unset;
     }
@@ -587,14 +725,7 @@ height:100%;
   .block {
     height:20em;
   }
-  .block h1 {
 
-	margin-top: 30%;
-	/* margin-left: auto; */
-	width: 35%;
-	/* margin-right: auto; */
-	font-size: 25pt;
-  }
   .swingboy{
     min-height:12em;
   }
@@ -609,6 +740,9 @@ height:100%;
     min-height: 15em;
   }
   .toolbar{
+    position: sticky;
+    top:0;
+    z-index: 10;
     /* height:13em; */
   }
   .toolbar div{
