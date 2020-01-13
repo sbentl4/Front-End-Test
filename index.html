@@ -1,51 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>Covalent Logic Testing</title>
+  <title>Covalent Logic Testing</title>
 
-		<!--CSShere -->
-		<link rel="stylesheet" href="css/style.css?v=1.1">
-    <!-- Bootstrap 4 -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!--CSShere -->
+  <link rel="stylesheet" href="css/style.css?v=1.1">
+  <!-- Bootstrap 4 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-<!-- Java -->
-<script src="javascript/sketch.js" type="text/javascript">
+  <!-- Java -->
+  <script src="javascript/sketch.js" type="text/javascript">
 
-</script>
-<!-- Glyphicons -->
-<script src="https://kit.fontawesome.com/6ac6e2807c.js" crossorigin="anonymous"></script>
+  </script>
+  <!-- Glyphicons -->
+  <script src="https://kit.fontawesome.com/6ac6e2807c.js" crossorigin="anonymous"></script>
 
 </head>
-  <body>
-    <div class="container-fluid toolbar">
-      <div>
-
-
-
-
-        <i class="mx-0 collapseable burger fas fa-bars" aria-hidden="true" data-toggle="collapse" data-target="#mobilemenu" aria-expanded="false">
-        </i>
-
-        <div id="mobilemenu" class="collapse">
-
-
+<!-- Toolbar collapses and reveals the burger when below 700px size breakpoint -->
+<body>
+  <div class="container-fluid toolbar">
+    <div>
+      <i class="mx-0 collapseable burger fas fa-bars" aria-hidden="true" data-toggle="collapse" data-target="#mobilemenu" aria-expanded="false">
+      </i>
+      <div id="mobilemenu" class="collapse">
         <a href="#" class="">
           About Us
         </a>
         <a href="#">
-            Licensee Info
+          Licensee Info
         </a>
         <a href="#">
-              Resources
+          Resources
         </a>
         <a href="#">
-                Laws & Rules
+          Laws & Rules
         </a>
         <a href="#">
           Disciplinary Action
@@ -57,309 +52,307 @@
           I am a(n) <i class="fas fa-sort-down"></i>
         </a>
         <a href="#" class="login text-center">
-        LOGIN
-      </a>
+          LOGIN
+        </a>
+      </div>
     </div>
-      </div>
   </div>
-    <div class="searchbar px-0">
-      <div class="bg">
-      </div>
-
-      <div class="searchcontainer">
-        <p>What can we help you find?</p>
-        <div class="">
+  <div class="searchbar px-0">
+    <div class="bg">
+    </div>
+<!-- Searchbar -->
+    <div class="searchcontainer">
+      <p>What can we help you find?</p>
+      <div class="">
         <input type="text" placeholder="Search">
-          <button type="button" name="button">
-            <i class="fas fa-search"></i>
-          </button>
+        <button type="button" name="button">
+          <i class="fas fa-search"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+<!-- Background image is assigned via CSS using the bimg class -->
+  <div class="bimg">
+    <div class="bg h-100 w-100"></div>
+    <div class="h-100 align-items-center">
+      <div class="col-12 text-center banner">
+        <img class="" src="Links\Logo.png" alt='logo'>
+        <h1>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </h1>
+      </div>
+    </div>
+  </div>
+
+
+<!-- Base contains the main body of the page -->
+<!-- Railholder locks the sticky nav rail into the article's area -->
+  <div class="base">
+    <div class="railholder">
+      <aside id="navrail" class="col-2">
+        <ul class="px-0">
+          <li class="active"><a href="#date">Article Top</a></li>
+          <!-- Toggles expand area -->
+          <i class="mx-0 collapseable fas  fa-sort-down " aria-hidden="true" data-toggle="collapse" data-target="#sampleExpand" aria-expanded="false">
+            <li>Expand</li>
+          </i>
+
+          <div id="sampleExpand" class="collapse show">
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          </div>
+
+          <li><a href="#ol">List</a></li>
+          <li><a href="#quote">Quote</a></li>
+        </ul>
+      </aside>
+<!-- Lorem article section -->
+      <section class="news offset-md-2 col-md-8">
+        <div class="container">
+          <div class="row">
+            <!-- first row -->
+            <p class="col-md-2" id="date">date</p>
+            <h1 class=" col-md-8 col-12 text-center">HEADLINE</h1>
+            <div class="col-md-2 col-0"> </div>
+
+            <div class="col-2"> </div>
+            <h2 class="col-8 text-center subtitle">Subtitle
+
+            </h2>
+            <!-- Img assigned via css artimg -->
+            <div class="artimg col-md-4 col-sm-10 offset-sm-1">
+              <div class="" title="caption" alt="alt">
+              </div>
+              <p class="text-center">caption</p>
+            </div>
+
+            <p class="offset-md-1 col-md-6 col-sm-10 offset-sm-1"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur tellus sit amet luctus pretium. Suspendisse odio eros, eleifend eu metus ultricies, dignissim volutpat urna.
+              Aliquam ut mattis velit. Nullam rhoncus velit et turpis dignissim pulvinar. Proin semper dui erat, eget auctor nisi rutrum id. Suspendisse in elementum lorem, ornare luctus ipsum. Maecenas felis tortor, mattis vitae dapibus at, ornare
+              ac augue. In mattis lectus mauris, et sagittis ipsum tristique quis.
+            </p>
+            <br>
+
+            <br>
+            <p class="col-12">
+              Quisque non nisl sem. Vivamus tempus urna nec fringilla elementum. Etiam sem est, faucibus et commodo quis, interdum sed orci. Nunc tincidunt eu nunc ut tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Class aptent
+              taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum commodo interdum nulla, nec ultricies lectus porttitor eu. Morbi mollis lobortis sem nec auctor. Donec tempus tortor quis vestibulum ultricies.
+              Aliquam porta magna a volutpat interdum. Duis tincidunt libero libero, scelerisque fermentum orci consectetur in. Morbi laoreet blandit libero id pellentesque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas
+              ultrices tincidunt luctus.
+            </p>
+            <!-- Holds 5-collumn lists -->
+            <div class="col-5 offset-1">
+
+              <ol id="ol">
+                <li>Ordered List 1</li>
+                <li>Ordered List 2</li>
+                <li>Ordered List 3</li>
+              </ol>
+            </div>
+            <div class="col-5 offset-1">
+
+              <ul id="ul">
+                <li>Unordered List 1</li>
+                <li>Unordered List 2</li>
+                <li>Unordered List 3</li>
+              </ul>
+            </div>
+
+            <!-- Quote -->
+            <h2 class="col-md-4 quote" id="quote">"Quisque non nisl sem. Vivamus tempus urna nec fringilla elemtum. "</h2>
+            <p class="col-md-7 offset-md-1">
+              Fusce commodo nisl nec sapien semper tempus. Sed auctor nulla condimentum sapien varius mollis. Cras ac orci aliquam, dapibus sapien quis, tristique purus. Vestibulum gravida enim non facilisis facilisis. Vivamus congue pulvinar
+              rhoncus. Nunc volutpat tellus in elementum accumsan. Mauris a leo sapien. Nam magna turpis, mattis sit amet mattis eget, sagittis non dolor. Donec vel tempus eros. Curabitur eu erat non justo fermentum malesuada et vel justo.
+            </p>
+            <p class="col-12">
+              Quisque non nisl sem. Vivamus tempus urna nec fringilla elementum. Etiam sem est, faucibus et commodo quis, interdum sed orci. Nunc tincidunt eu nunc ut tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Class aptent
+              taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum commodo interdum nulla, nec ultricies lectus porttitor eu. Morbi mollis lobortis sem nec auctor. Donec tempus tortor quis vestibulum ultricies.
+              Aliquam porta magna a volutpat interdum. Duis tincidunt libero libero, scelerisque fermentum orci consectetur in. Morbi laoreet blandit libero id pellentesque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas
+              ultrices tincidunt luctus.
+            </p>
+
+          </div>
+        </div>
+      </section>
+    </div>
+
+<!-- BG img assigned by swingboy tag, rest of the content hovered over it via absolute -->
+    <div class="swingboy">
+      <div class="container">
+        <div class="row h-100 align-items-center">
+          <div class="col-6 offset-md-0 offset-1">
+
+            <h1>Lorum Ipsum</h1>
+
+            <div>
+              <!-- bgholder chooses the size and bg fills it with a transparent background, since opacity would effect the text too if it was in the same section -->
+              <!-- inline-block requires the objects to be butted up against eachother to prevent whitespace -->
+              <!-- even listed bgholder sections are marked for the lighter font -->
+              <div class="bgholder">
+                <li>LOR</li>
+                <div class="bg"></div>
+              </div><div class="bgholder">
+                <li>500</li>
+                <div class="bg"></div>
+              </div>
+              <div class="bgholder">
+                <li>EM</li>
+                <div class="bg"></div>
+              </div><div class="bgholder">
+                <li>2,000</li>
+                <div class="bg"></div>
+              </div>
+              <div class="bgholder">
+                <li>IPS</li>
+                <div class="bg"></div>
+              </div><div class="bgholder">
+                <li>3,200</li>
+                <div class="bg"></div>
+              </div>
+
+
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-
-    <div class="bimg">
-      <div class="bg h-100 w-100"></div>
-
-      <div class="h-100 align-items-center">
-        <div class="col-12 text-center banner">
-          <img class="" src="Links\Logo.png" alt='logo'>
-          <h1>
-            Welcome to the Louisiana State Board of Licensed Professional Counselors
-          </h1>
+    <section class="textbox ytembed">
+      <div class="container">
+        <div class="row">
+          <div class="mx-md-auto col-md-6 col-12">
+            <iframe class="col-12" src="https://www.youtube.com/embed/ZwosbAOUkzw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="col-md-5 col-12 text-center">
+            <h1>Video Embed</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur tellus sit amet luctus pretium. Suspendisse odio eros, eleifend eu metus ultricies, dignissim volutpat urna. Aliquam ut mattis velit. Nullam rhoncus velit et
+              turpis dignissim pulvinar. Proin semper dui erat, eget auctor nisi rutrum id. Suspendisse in elementum lorem, ornare luctus ipsum. Maecenas felis tortor, mattis vitae dapibus at, ornare ac augue. In mattis lectus mauris, et sagittis
+              ipsum tristique quis.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
+<!-- Articles use the same seperate content and transparent BG as the section above with the photo of the boy on the swing -->
+<!-- block1/2/3 holds the seperate image urls to assign to the sections -->
+    <section class="articles mx-0 container-fluid">
+      <div class="row">
+        <div class="px-0 col-md-4 col-12 block">
+          <div class="block1 aimg"></div>
+          <div class="blocktext">
+            <div class="white">
+              <h1 href='#'>Article 1</h1>
+            </div>
+          </div>
+        </div>
 
+        <div class="px-0 col-md-4 col-12 block">
+          <div class="block2 aimg"></div>
+          <div class="blocktext">
+            <div class="white">
+              <h1 href='#'>Article 2</h1>
+            </div>
+          </div>
+        </div>
 
-<div class="base">
-  <div class="railholder">
-
-  <aside id="navrail" class="col-2">
-    <ul class="px-0" >
-      <li class="active"><a href="#date">Article Top</a></li>
-      <!-- <i class="fas"></i> -->
-      <i class="mx-0 collapseable fas  fa-sort-down " aria-hidden="true" data-toggle="collapse" data-target="#sampleExpand" aria-expanded="false">
-        <li>Expand</li>
-      </i>
-
-      <div id="sampleExpand" class="collapse show">
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        <div class="px-0 col-md-4 col-12 block">
+          <div class="block3 aimg"></div>
+          <div class="blocktext">
+            <div class="white">
+              <h1 href='#'>Article 3</h1>
+            </div>
+          </div>
+        </div>
       </div>
-      <li><a href="#ol">List</a></li>
-      <li><a href="#quote">Quote</a></li>
-    </ul>
-  </aside>
+    </section>
+  </div>
 
-<section class="news offset-md-2 col-md-8">
-  <div class="container">
+  <!-- Footer -->
+
+  <div class="footer">
     <div class="row">
-      <!-- first row -->
-      <p class="col-md-2" id="date">date</p>
-      <h1 class=" col-md-8 col-12 text-center">HEADLINE</h1>
-      <div class="col-md-2 col-0">      </div>
 
-      <div class="col-2"> </div>
-      <h2 class="col-8 text-center subtitle">Subtitle
+      <div class="col-4 contact">
+        <h1>
+          Licensed Professional Counselors
+          Board of Examiners
+        </h1>
 
-      </h2>
-      <!-- make responsive later, date below -->
-      <div class="artimg col-md-4 col-sm-10 offset-sm-1">
-          <div class="" title="caption" alt="alt">
+        <li>
+          8631 Summa Ave
+        </li>
+        <li>
+          Baton Rouge, LA 70809
+        </li>
+        <li>
+          225-765-2515 (phone)
+        </li>
+        <li>
+          225-765-2514 (fax)
+        </li>
+        <li>
+          lpcboard@lpcboard.org
+        </li>
+      </div>
 
-          </div>
-      <!-- <img src="links/imgPointerHand.png" alt="test" title="Caption"> -->
-      <p class="text-center">caption</p>
-    </div>
+      <div class="col-4 col-offset-1 darkyellow">
+        <h1>FOLLOW US ONLINE</h1>
+        <div class="footerbar">
+        </div>
+        <!-- Went with an extracted image of the social media stuff due to avalability  -->
+        <img src="Links\socialmedia.png" alt="">
+      </div>
 
+      <div class="col-md-4 offset-md-1  col-12  linkfooter row">
+        <h1>HELPFUL LINKS</h1>
+        <div class="footerbar">
+        </div>
+        <div class="col-md-6 col-12 ">
 
+          <ul>
+            <li>
+              <i class="fas fa-arrow-right"></i> Privacy Policy
+            </li>
+            <li>
+              <i class="fas fa-arrow-right"></i> Equal Opportunity Policy
+            </li>
+            <li>
+              <i class="fas fa-arrow-right"></i> Sexual Harassment Policy
+            </li>
+            <li>
+              <i class="fas fa-arrow-right"></i> Legal Disclaimers
+            </li>
+            <li>
+              <i class="fas fa-arrow-right"></i> Military Trained Applicant Licensed Information
+            </li>
+            <li>
+              <i class="fas fa-arrow-right"></i> Help
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-12">
 
-
-      <p class="offset-md-1 col-md-6 col-sm-10 offset-sm-1"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur tellus sit amet luctus pretium. Suspendisse odio eros, eleifend eu metus ultricies, dignissim volutpat urna. Aliquam ut mattis velit. Nullam rhoncus velit et turpis dignissim pulvinar. Proin semper dui erat, eget auctor nisi rutrum id. Suspendisse in elementum lorem, ornare luctus ipsum. Maecenas felis tortor, mattis vitae dapibus at, ornare ac augue. In mattis lectus mauris, et sagittis ipsum tristique quis.
-      </p>
-      <br>
-
-      <br>
-      <p class="col-12">
-        Quisque non nisl sem. Vivamus tempus urna nec fringilla elementum. Etiam sem est, faucibus et commodo quis, interdum sed orci. Nunc tincidunt eu nunc ut tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum commodo interdum nulla, nec ultricies lectus porttitor eu. Morbi mollis lobortis sem nec auctor. Donec tempus tortor quis vestibulum ultricies. Aliquam porta magna a volutpat interdum. Duis tincidunt libero libero, scelerisque fermentum orci consectetur in. Morbi laoreet blandit libero id pellentesque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas ultrices tincidunt luctus.
-      </p>
-
-      <div class="col-5 offset-1">
-
-      <ol id="ol">
-        <li>Ordered List 1</li>
-        <li>Ordered List 2</li>
-        <li>Ordered List 3</li>
-      </ol>
-    </div>
-    <div class="col-5 offset-1">
-
-      <ul id="ul">
-        <li>Unordered List 1</li>
-        <li>Unordered List 2</li>
-        <li>Unordered List 3</li>
-      </ul>
-  </div>
-
-
-      <h2 class="col-md-4 quote" id="quote">"Quisque non nisl sem. Vivamus tempus urna nec fringilla elemtum. "</h2>
-      <p class="col-md-7 offset-md-1">
-      Fusce commodo nisl nec sapien semper tempus. Sed auctor nulla condimentum sapien varius mollis. Cras ac orci aliquam, dapibus sapien quis, tristique purus. Vestibulum gravida enim non facilisis facilisis. Vivamus congue pulvinar rhoncus. Nunc volutpat tellus in elementum accumsan. Mauris a leo sapien. Nam magna turpis, mattis sit amet mattis eget, sagittis non dolor. Donec vel tempus eros. Curabitur eu erat non justo fermentum malesuada et vel justo.
-      </p>
-      <p class="col-12">
-        Quisque non nisl sem. Vivamus tempus urna nec fringilla elementum. Etiam sem est, faucibus et commodo quis, interdum sed orci. Nunc tincidunt eu nunc ut tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum commodo interdum nulla, nec ultricies lectus porttitor eu. Morbi mollis lobortis sem nec auctor. Donec tempus tortor quis vestibulum ultricies. Aliquam porta magna a volutpat interdum. Duis tincidunt libero libero, scelerisque fermentum orci consectetur in. Morbi laoreet blandit libero id pellentesque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas ultrices tincidunt luctus.
-      </p>
-
-    </div>
-  </div>
-</section>
-</div>
-
-
-<div class="swingboy">
-  <div class="container">
-    <div class="row h-100 align-items-center">
-      <div class="col-6 offset-md-0 offset-1">
-
-        <h1>Lorum Ipsum</h1>
-
-        <div>
-          <!-- bgholder chooses the size and bg fills it with a transparent background, since opacity would effect the text too if it was in the same section -->
-          <!-- inline-block requires the objects to be butted up against eachother to prevent whitespace -->
-          <!-- even listed bgholder sections are marked for the lighter font -->
-          <div class="bgholder">
-              <li>LOR</li>
-              <div class="bg"></div>
-          </div><div class="bgholder">
-              <li>500</li>
-              <div class="bg"></div>
-          </div>
-          <div class="bgholder">
-              <li>EM</li>
-              <div class="bg"></div>
-          </div><div class="bgholder">
-              <li>2,000</li>
-              <div class="bg"></div>
-          </div>
-          <div class="bgholder">
-              <li>IPS</li>
-              <div class="bg"></div>
-          </div><div class="bgholder">
-              <li>3,200</li>
-              <div class="bg"></div>
-          </div>
-
-
+          <ul>
+            <li>
+              <i class="fas fa-arrow-right"></i> Fight Fraud
+            </li>
+            <li>
+              <i class="fas fa-arrow-right"></i> National Board for Certified Counselors, Inc.
+            </li>
+            <li>
+              <i class="fas fa-arrow-right"></i> Louisiana Association of Marriage and Family Therapy
+            </li>
+            <li>
+              <i class="fas fa-arrow-right"></i> Louisiana Counseling Association
+            </li>
+          </ul>
         </div>
       </div>
     </div>
-  </div>
-</div>
-
-<section class="textbox ytembed">
-  <div class="container">
-    <div class="row">
-
-      <div class="mx-md-auto col-md-6 col-12">
-
-        <iframe class="col-12"
-        src="https://www.youtube.com/embed/ZwosbAOUkzw" frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <!-- <h1 class="col-12 text-center">Lorum Ipsum</h1> -->
-      <div class="col-md-5 col-12 text-center">
-
-      <h1 >Video Embed</h1>
-      <p>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur tellus sit amet luctus pretium. Suspendisse odio eros, eleifend eu metus ultricies, dignissim volutpat urna. Aliquam ut mattis velit. Nullam rhoncus velit et turpis dignissim pulvinar. Proin semper dui erat, eget auctor nisi rutrum id. Suspendisse in elementum lorem, ornare luctus ipsum. Maecenas felis tortor, mattis vitae dapibus at, ornare ac augue. In mattis lectus mauris, et sagittis ipsum tristique quis.
-      </p>
-    </div>
-    </div>
-  </div>
-</section>
 
 
-<section class="articles mx-0 container-fluid">
-  <div class="row">
-
-<div class="px-0 col-md-4 col-12 block">
-  <div class="block1 aimg"></div>
-  <div class="blocktext">
-    <div class="white">
-      <h1>Article 1</h1>
-    </div>
-  </div>
-</div>
-
-<div class="px-0 col-md-4 col-12 block">
-  <div class="block2 aimg"></div>
-  <div class="blocktext">
-    <div class="white">
-      <h1>Article 2</h1>
-    </div>
-  </div>
-</div>
-
-<div class="px-0 col-md-4 col-12 block">
-  <div class="block3 aimg"></div>
-  <div class="blocktext">
-    <div class="white">
-      <h1>Article 3</h1>
-    </div>
-  </div>
-</div>
-</div>
-
-</section>
-</div>
-
-<!-- Footer -->
-
-<div class= "footer">
-  <div class="row">
-
-  <div class="col-4 contact">
-    <h1>
-    Licensed Professional Counselors
-    Board of Examiners
-    </h1>
-
-    <li>
-      8631 Summa Ave
-    </li>
-    <li>
-      Baton Rouge, LA 70809
-    </li>
-    <li>
-      225-765-2515 (phone)
-    </li>
-    <li>
-      225-765-2514 (fax)
-    </li>
-    <li>
-      lpcboard@lpcboard.org
-    </li>
   </div>
 
-<div class="col-4 col-offset-1 darkyellow">
-  <h1>FOLLOW US ONLINE</h1>
-  <div class="footerbar">
-    <!-- <p>ddog</p> -->
-  </div>
-  <img src="Links\socialmedia.png" alt="">
-</div>
+</body>
 
-<div class="col-md-4 offset-md-1  col-12  linkfooter row">
-  <h1>HELPFUL LINKS</h1>
-  <div class="footerbar">
-  </div>
-  <div class="col-md-6 col-12 ">
-
-  <ul>
-    <li>
-    <i class="fas fa-arrow-right"></i>  Privacy Policy
-    </li>
-    <li>
-    <i class="fas fa-arrow-right"></i>  Equal Opportunity Policy
-    </li>
-    <li>
-    <i class="fas fa-arrow-right"></i>  Sexual Harassment Policy
-    </li>
-    <li>
-    <i class="fas fa-arrow-right"></i>  Legal Disclaimers
-    </li>
-    <li>
-    <i class="fas fa-arrow-right"></i>  Military Trained Applicant Licensed Information
-    </li>
-    <li>
-    <i class="fas fa-arrow-right"></i>  Help
-    </li>
-  </ul>
-</div>
-<div class="col-md-6 col-12">
-
-  <ul >
-    <li>
-    <i class="fas fa-arrow-right"></i>  Fight Fraud
-    </li>
-    <li>
-    <i class="fas fa-arrow-right"></i>  National Board for Certified Counselors, Inc.
-    </li>
-    <li>
-    <i class="fas fa-arrow-right"></i>  Louisiana Association of Marriage and Family Therapy
-    </li>
-    <li>
-    <i class="fas fa-arrow-right"></i>  Louisiana Counseling Association
-    </li>
-  </ul>
-</div>
-</div>
-</div>
-
-
-</div>
-
-  </body>
 </html>
