@@ -47,15 +47,35 @@ background-repeat: no-repeat;
 }
 .toolbar .login{
   background-color:#FDC00F;
-  padding: 0.25em .5em .25em .5em;
+  padding: 0.45em .5em .45em .5em;
+  font-family: roundedMplus1cBold;
   border-radius: 4px;
+  width: 6%;
 }
-.toolbar div a{
+/* .toolbar div a{
   color: white;
-  margin-right: 1.1em;
-  /* font-size: 20pt; */
+  margin-right: 4%;
   font-size: 9pt;
-  /* make 20 when larger */
+  display: inline-flex;
+
+} */
+
+.toolbar div a {
+	color: white;
+	margin-right: auto;
+	/* font-size: 20pt; */
+  font-size: 11pt;
+	/* font-size: 9pt; */
+	/* width: 10%; */
+	display: inline-block;
+  line-height: 10px;
+
+	margin-left: 4%;
+}
+.testblock{
+  background-color:red;
+  width:10%;
+  display:block;
 }
 .toolbar div{
 
@@ -63,9 +83,8 @@ background-repeat: no-repeat;
   height:4em;
 
 }
-.toolbar i{
+.toolbar .burger{
     display: none;
-
 }
 .searchbar{
   position:absolute;
@@ -75,7 +94,13 @@ background-repeat: no-repeat;
   max-width:none;
   padding-top: 0.2em;
 }
+.searchbar .searchcontainer{
+  margin-left: 25%;
+width: 100%;
+}
+.searchbar div{
 
+}
 .searchbar p, .searchbar input{
   display:inline-block;
 }
@@ -107,8 +132,13 @@ height: 1.62em;
   position: absolute;
   opacity: 0.5;
   top:0;
+  z-index: -1;
 }
+
 .searchcontainer{
+  display:inline-block;
+}
+.searchbar .searchcontainer div{
   display:inline-block;
 }
 .footer li{
@@ -472,16 +502,65 @@ height:100%;
 }
 #mobilemenu{
   display:block;
+  margin-left:10%;
+}
+
+@media screen and (max-width: 1500px) {
+  .toolbar .login{
+    padding: 0.45em .5em .45em .5em;
+    width: 7%;
+  }
+  .toolbar{
+    width:90%;
+    margin-left:5%;
+  }
+  .toolbar div a {
+
+    font-size: 10pt;
+
+    /* width: 10%; */
+    display: inline-block;
+    line-height: 10px;
+    margin-left: 1%;
+    /* margin-left: auto; */
+  }
+}
+@media screen and (max-width: 1200px) {
+  .toolbar div a {
+    font-size: 8pt;
+  }
+  #mobilemenu{
+    margin-left:10%;
+  }
+  .searchcontainer input{
+    width: unset;
+  }
 }
 
 @media screen and (max-width: 1000px) {
   .searchbar{
-    height:5em;
+    height:3em;
     top:unset;
   }
-}
+  #mobilemenu{
+    margin-left:10%;
+  }
 
-@media screen and (max-width: 600px) {
+  .searchcontainer input{
+    width: 50%;
+  }
+
+}
+@media screen and (max-width: 850 px){
+  #mobilemenu{
+    margin-left:unset;
+  }
+  .searchbar{
+    height:5em;
+    /* top:unset; */
+  }
+}
+@media screen and (max-width: 700px) {
     .articles {
       height:unset;
     }
@@ -526,13 +605,21 @@ height:100%;
     padding-bottom:1em;
   }
   .toolbar i{
-    display: block;
+    display: inline-block;
   }
-  .toolbar div a {
+  /* .toolbar div a {
   	font-size: 9pt;
   	width: 100%;
   	display: block;
-  }
+    line-height: unset;
+  } */
+  .toolbar div a {
+	font-size: 15pt;
+	width: 100%;
+	display: block;
+	line-height: unset;
+	padding-bottom: 0.5em;
+}
   #mobilemenu{
     display:none;
   }
@@ -543,5 +630,12 @@ height:100%;
   .collapse.show {
   	display: block!important;
   }
+  .toolbar .burger{
+      display: block;
+  }
 
+  .toolbar .login {
+
+	width: 30%;
+  }
 }
