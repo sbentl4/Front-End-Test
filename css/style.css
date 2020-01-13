@@ -502,16 +502,16 @@ height:100%;
 }
 #mobilemenu{
   display:block;
-  margin-left:13%;
+  margin-left:18%;
 }
 
-@media screen and (min-width: 2000px) {
+/* @media screen and (min-width: 2000px) {
   #mobilemenu {
 	display: block;
 	margin-left: 18%;
 }
 
-}
+} */
 
 @media screen and (max-width: 1500px) {
   .toolbar .login{
@@ -542,7 +542,7 @@ height:100%;
     font-size: 8pt;
   }
   #mobilemenu{
-    margin-left:10%;
+    margin-left:13%;
   }
   .searchcontainer input{
     width: unset;
