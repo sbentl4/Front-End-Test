@@ -667,6 +667,7 @@ height:100%;
 
 @media screen and (max-width: 1000px) {
   .bimg img{
+    padding-top: 1em;
     height:4em;
   }
   #navrail .collapseable{
