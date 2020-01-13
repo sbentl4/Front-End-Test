@@ -4,15 +4,15 @@
 }
 @font-face {
   font-family: roundedMplus1cBold;
-  src: url('/Fonts/Rounded Mplus 1c Bold/RoundedMplus1c-Bold.ttf');
+  src: url('../Fonts/Rounded Mplus 1c Bold/RoundedMplus1c-Bold.ttf');
 }
 @font-face {
   font-family: roundedMplus1cExtraBold;
-  src: url('/Fonts/Rounded Mplus 1c ExtraBold/RoundedMplus1c-ExtraBold.ttf');
+  src: url('../Fonts/Rounded Mplus 1c ExtraBold/RoundedMplus1c-ExtraBold.ttf');
 }
 @font-face {
   font-family: roundedMplus1cLight;
-  src: url('/Fonts/Rounded Mplus 1c Light/RoundedMplus1c-Light.ttf');
+  src: url('../Fonts/Rounded Mplus 1c Light/RoundedMplus1c-Light.ttf');
 }
 div{
   font-family: roundedMplus1c;
