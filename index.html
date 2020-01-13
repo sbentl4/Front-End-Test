@@ -181,11 +181,13 @@
   <div class="container">
     <div class="row h-100 align-items-center">
       <div class="col-6 offset-md-0 offset-1">
-        <!-- Unused spot for text -->
+
         <h1>Lorum Ipsum</h1>
 
         <div>
-
+          <!-- bgholder chooses the size and bg fills it with a transparent background, since opacity would effect the text too if it was in the same section -->
+          <!-- inline-block requires the objects to be butted up against eachother to prevent whitespace -->
+          <!-- even listed bgholder sections are marked for the lighter font -->
           <div class="bgholder">
               <li>LOR</li>
               <div class="bg"></div>

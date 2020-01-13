@@ -598,14 +598,14 @@ font-size:14pt;
   }
 .block1{
   background:url(../Links/iStock-531150967.jpg);
-background-position: center;
+background-position: top;
 background-size: cover;
 background-repeat: no-repeat;
 height:100%;
 }
 .block2{
   background:url(../Links/iStock-614859992.jpg);
-background-position: center;
+background-position: top;
 background-size: cover;
 background-repeat: no-repeat;
 height:100%;
@@ -613,7 +613,7 @@ height:100%;
 }
 .block3{
   background:url(../Links/iStock-860923864.jpg);
-background-position: center;
+background-position: top;
 background-size: cover;
 background-repeat: no-repeat;
 height:100%;
