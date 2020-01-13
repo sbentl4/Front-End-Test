@@ -572,7 +572,7 @@ font-size:14pt;
     margin-right:10%;
   }
   #navrail .collapseable{
-    padding-left: 20%;
+    padding-left: 35%;
   }
   .collapseable{
     display:inline-block;
@@ -672,6 +672,9 @@ height:100%;
 }
 
 @media screen and (max-width: 1000px) {
+  #navrail .collapseable{
+    padding-left: 20%;
+  }
   .searchbar{
     height:2em;
     top:unset;
