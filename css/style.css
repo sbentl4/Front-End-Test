@@ -502,7 +502,15 @@ height:100%;
 }
 #mobilemenu{
   display:block;
-  margin-left:18%;
+  margin-left:13%;
+}
+
+@media screen and (min-width: 2000px) {
+  #mobilemenu {
+	display: block;
+	margin-left: 18%;
+}
+
 }
 
 @media screen and (max-width: 1500px) {
